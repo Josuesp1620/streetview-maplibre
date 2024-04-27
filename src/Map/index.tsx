@@ -1,8 +1,8 @@
+import MapComponent from "./components/Map";
+
 const MapView = () => {
     return (
-        <>
-            Mapa!
-        </>
+        <MapComponent />
     );
 }
 

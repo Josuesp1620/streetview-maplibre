@@ -1,0 +1,41 @@
+.mapboxgl-marker {
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  transition: opacity .2s;
+  will-change: transform;
+}
+
+/* Estilo CSS para el elemento con la imagen de fondo */
+.mapboxgl-marker-anchor-center {
+  background-image: url(https://app.atlas.co/static/analysis/location-marker.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: move;
+  transform: translate(1017px, 459px) translate(-50%, -50%) translate(0px, 0px);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+/* SCROLL CSS */
+::-webkit-scrollbar {
+  border-radius: 10px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #c2c9d2;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
